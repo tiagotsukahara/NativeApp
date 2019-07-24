@@ -1,7 +1,7 @@
 # NativeApp
 Aplicação mobile do curso rocketseat com windows 10
 
-Instalar Chocolatey
+#Instalar Chocolatey
 $ @"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
 
 Instalar Node LTS, Python2, JDK e a SDK do Android.
