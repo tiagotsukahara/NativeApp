@@ -7,7 +7,7 @@ $ @"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -Inp
 
 Instalar Node LTS, Python2, JDK e a SDK do Android.
 
-$ choco install nodejs-lts
+$ choco install nodejs--version 10.16.0
 
 $ choco install -y python2 jdk8
 
@@ -45,3 +45,5 @@ $ cd AwesomeProject
 Rode a aplicação
 
 $ react-native run-android
+
+## Se der erro no webview $ react-native unlink react-native-webview
